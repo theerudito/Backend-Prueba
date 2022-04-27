@@ -2,3 +2,13 @@ PASO PARA USAR LA APLICACION
 
 1.- ARRANCAR EL SERVIDOR EN EL PUERTO YA DEFINIDO 8000 CON EL COMANDO npm run dev
 2.- LINK DE LAS RUTA PARA PRUEBAS http://localhost:8000/api/clients
+3.- EJEMPLO DE DATOS
+
+   {
+    "nombres": "Jorge",
+    "apellidos": "Loor",
+    "nacimiento": "09-12-1990",
+    "genero": "Maculino",
+    "telefono": "9999999999",
+    "email": "prueba@gmail.com"
+  }

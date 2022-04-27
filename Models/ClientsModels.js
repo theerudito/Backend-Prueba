@@ -9,7 +9,7 @@ const ClientsModels = new Schema (
     apellidos: {type: String, require: true}, 
     nacimiento: {type: String, require: true},
     genero: {type: String, require: true}, 
-    telefono: {type: String, require: true}, 
+    telefono: {type: Number, require: true}, 
     email : {type: String, require: true, unique: true},
   },
   {
