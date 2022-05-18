@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-
 const Schema = mongoose.Schema
 
 const ClientsModels = new Schema (
@@ -11,6 +10,7 @@ const ClientsModels = new Schema (
     genero: {type: String, require: true}, 
     telefono: {type: Number, require: true}, 
     email : {type: String, require: true, unique: true},
+    pic: {type: String, require: true, max: 300}, 
   },
   {
     timestamps: true,    
